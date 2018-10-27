@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Simplexity API",
+  "main": "index.js",
+  "scripts": {
+    "serve": "DEBUG=Express:Connection,Express:Route,Database:Connection,Database:Query,Express:Middleware nodemon index.js"
+  },
+  "author": "Edward W Glazenski",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "debug": "^4.1.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "joi": "^14.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.4",
+    "morgan": "^1.9.1",
+    "winston": "^2.4.4"
+  }
+}
